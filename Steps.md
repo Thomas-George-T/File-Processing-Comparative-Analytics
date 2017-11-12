@@ -1,14 +1,14 @@
 # Steps for running Map Reduce programs
 
 
-1. Start hdfs and yarn
+1. Start hdfs and yarn daemons
 
 ```
 start-hdfs.sh
 start-yarn.sh
-OR
-> **deprecated code**
-> start-all.sh
+    OR
+deprecated code
+start-all.sh
 ```
 
 2. Open a java project in Eclipse
@@ -33,7 +33,7 @@ OR
 7. Copy file from local to hdfs
    
    ```
-   using hdfs dfs -copyFromLocal <sourcefile> <destinationPath>
+   hdfs dfs -copyFromLocal <sourcefile> <destinationPath>
    ```
 
 8. Submit the file to the hdfs cluster
@@ -45,7 +45,7 @@ OR
 9. Read the output file
 
    ```
-   hdfs dfs -cat /DestinationFolder/* to read multiple files
+   hdfs dfs -cat /DestinationFolder/* to view the results
    ```
 
 10. Stop all the hdfs daemons
@@ -53,7 +53,7 @@ OR
    ```
 	stop-dfs.sh
 	stop-yarn.sh
-	OR
-	> deprecated :
-	> Stop-all.sh
+	     OR
+	deprecated code:
+	Stop-all.sh
    ```
