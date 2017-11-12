@@ -1,10 +1,12 @@
 import java.io.IOException;
 
 import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
-
-import com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider.Text;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class WordCountDriver {
  public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
@@ -30,6 +32,10 @@ public class WordCountDriver {
 	 	job.setOutputKeyClass(Text.class);
 	 	job.setOutputValueClass(IntWritable.class);
 	 	
+	 	//Fileinputs **
+	 	FileInputFormat.setInputPaths(job, new Path(args[0]));
+	    FileOutputFormat.setOutputPath(job, new Path(args[1]));
+	 	
 	 	//Start map reduce job
 	 	//wait for the progress
 	 	boolean result=job.waitForCompletion(true);
@@ -37,7 +43,5 @@ public class WordCountDriver {
 	 	System.exit(status);
 
 	 
-}
-	
-	
+}	
 }
