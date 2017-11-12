@@ -3,13 +3,13 @@
 
 1. Start hdfs and yarn daemons
 
-```
-start-hdfs.sh
-start-yarn.sh
-    OR
-deprecated code
-start-all.sh
-```
+  ```
+  start-hdfs.sh
+  start-yarn.sh
+     OR
+  deprecated code
+  start-all.sh
+  ```
 
 2. Open a java project in Eclipse
 
@@ -17,11 +17,11 @@ start-all.sh
    From the hadoop software folder add :
 
    ```
-	/common/*.jar 
-	/common/lib/All
-	/hdfs/*.jar
-	/mapreduce/*.jar
-	/yarn/*.jar
+   /common/*.jar 
+   /common/lib/All
+   /hdfs/*.jar
+   /mapreduce/*.jar
+   /yarn/*.jar
    ```
 
 4. Write the mapper, reducer and driver class
@@ -51,9 +51,9 @@ start-all.sh
 10. Stop all the hdfs daemons
 	
    ```
-	stop-dfs.sh
-	stop-yarn.sh
-	     OR
-	deprecated code:
-	Stop-all.sh
+   stop-dfs.sh
+   stop-yarn.sh
+       OR
+   deprecated code:
+   Stop-all.sh
    ```
