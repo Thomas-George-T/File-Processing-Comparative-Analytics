@@ -1,5 +1,4 @@
-# Steps for running Map Reduce programs
-
+## Steps for running Map Reduce programs
 
 1. Start hdfs and yarn daemons
 
@@ -7,8 +6,8 @@
   start-hdfs.sh
   start-yarn.sh
      OR
-  deprecated code
-  start-all.sh
+  *deprecated code*
+  *start-all.sh*
   ```
 
 2. Open a java project in Eclipse
@@ -54,6 +53,6 @@
    stop-dfs.sh
    stop-yarn.sh
        OR
-   deprecated code:
-   Stop-all.sh
+   *deprecated code:*
+   *Stop-all.sh*
    ```

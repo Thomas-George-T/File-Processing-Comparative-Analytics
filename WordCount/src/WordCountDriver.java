@@ -9,39 +9,39 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class WordCountDriver {
- public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
+	public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
+		
+		//Job object
+		//We create job object by passing configuration
+		Configuration conf=new Configuration();
+		//Create Job object
+		//Job job=new Job();
+		Job job=Job.getInstance(conf,"Word Count");
+		
+		//Entry point
+		job.setJarByClass(WordCountDriver.class);
+		//what is the mapper
+		job.setMapperClass(WordCountMapper.class);
+		//What is reducer
+		job.setReducerClass(WordCountReducer.class);
 	
-	 //Job object
-	 // we create job object by passing a configuration object
-	 
-	 Configuration conf=new Configuration();
-		//Create job object
-	 	//Job job=new Job();
-	 	Job job=Job.getInstance(conf,"Word Count");
-	 	
-	 	//Entry pont
-	 	job.setJarByClass(WordCountDriver.class);
-	 	//what is the mapper?
-	 	job.setMapperClass(WordCountMapper.class);
-	 	//what is the reducer?
-	 	job.setReducerClass(WordCountReducer.class);
-	 	
-	 	//When job ip types and o/p types are different
-	 	// we need to specify the data types wich job emits
-	 
-	 	job.setOutputKeyClass(Text.class);
-	 	job.setOutputValueClass(IntWritable.class);
-	 	
-	 	//Fileinputs **
-	 	FileInputFormat.setInputPaths(job, new Path(args[0]));
-	    FileOutputFormat.setOutputPath(job, new Path(args[1]));
-	 	
-	 	//Start map reduce job
-	 	//wait for the progress
-	 	boolean result=job.waitForCompletion(true);
-	 	int status=result?0:1;
-	 	System.exit(status);
-
-	 
-}	
+		//when job ip types and o/p types are diff
+		//we need to specify the data types which job emits.
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(IntWritable.class);
+		
+		
+		FileInputFormat.addInputPath(job, new Path(args[0]));
+		
+		FileOutputFormat.setOutputPath(job, new Path(args[1]));
+		
+		//FileInputFormat<K, V>
+		//Start MR job
+		//wait for the progress
+		boolean result=job.waitForCompletion(true);
+		int status=result?0:1;		
+		System.exit(status);	
+		
+		
+	}
 }
