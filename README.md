@@ -9,8 +9,8 @@
   start-hdfs.sh
   start-yarn.sh
      OR
-  _deprecated code_
-  _start-all.sh_
+  deprecated code
+  start-all.sh
   ```
 
 2. Open a java project in Eclipse
@@ -56,6 +56,6 @@
    stop-dfs.sh
    stop-yarn.sh
        OR
-   _deprecated code:_
-   _stop-all.sh_
+   deprecated code:
+   stop-all.sh
    ```
