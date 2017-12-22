@@ -1,7 +1,7 @@
 # Description
-- Running a Map Reduce program to find out the word count of a sample input text file from the terminal in Ubuntu
+- Writing a Mapper and reducer in Java(Map Reduce program) to find out the word count of a sample input text file from the terminal in Ubuntu
 
-## Steps for running Map Reduce programs on Hadoop 
+## Steps for running Map Reduce programs on Hadoop Ecosystem
 
 1. Start hdfs and yarn daemons
 
