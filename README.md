@@ -6,26 +6,27 @@ To find the word count and compare the execution time for different sizes of inp
 
 ## Run Command:
 
-In your terminal write the command:
+In terminal execute
 
 ```
 spark-shell -i "SparkWordCount.scala"
 ```
 
-### Sources of files
+## File Sources
 
-[apache-hadoop-wiki](https://en.wikipedia.org/wiki/Apache_Hadoop)
-[big.txt](https://norvig.com/big.txt)
+- [apache-hadoop-wiki](https://en.wikipedia.org/wiki/Apache_Hadoop)
+- [big.txt](https://norvig.com/big.txt)
 
 
-### Size of files
+## File Sizes
 
 - apache-hadoop-wiki.txt: 46.5 kB
 - big.txt: 6.5 MB 
 
-### Execution time 
-
-<img-src:images/spark-jobs.png>
+## Execution time 
+<p align=center>
+  <img src="images/spark-jobs.png">
+</p>
 
 The execution time for the spark jobs on a Spark local mode :
 
