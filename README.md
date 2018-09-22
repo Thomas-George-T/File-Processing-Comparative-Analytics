@@ -23,8 +23,8 @@ spark-shell -i "SparkWordCount.scala"
 - apache-hadoop-wiki.txt: 46.5 kB
 - big.txt: 6.5 MB 
 
-## Execution time 
-
+## Observations 
+<br>
 <p align="center">
 	<img src="images/spark-jobs-chart.png" width=500>
 </p>
