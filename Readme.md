@@ -25,7 +25,7 @@ Import the project into eclipse, compile and run
 	<img src="images/java-word-count-charts.png" width=500>
 </p>
 
-The execution time for the word count programs in Java are:
+The average execution times for the word count programs in Java are:
 
 - apache-hadoop-wiki.txt: 0.123 secs
 - big.txt: 1.179 secs
