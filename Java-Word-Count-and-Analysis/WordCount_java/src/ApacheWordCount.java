@@ -15,7 +15,7 @@ public class ApacheWordCount {
 	public static void main(String[] args) throws IOException {
 
 		// Create the FileInputStream and the scanner
-		FileInputStream fin = new FileInputStream("apache-hadoop-wiki.txt");
+		FileInputStream fin = new FileInputStream("Input-Files/apache-hadoop-wiki.txt");
 		Scanner sc = new Scanner(fin);
 
 		// Create the linkedHashMap
@@ -41,7 +41,7 @@ public class ApacheWordCount {
 
 		try {
 			// Write the file
-			FileWriter fw = new FileWriter("result/Word-count-apache-hadoop-wiki.txt", false);
+			FileWriter fw = new FileWriter("Java-Word-Count-and-Analysis/WordCount_java/Result/Word-count-apache-hadoop-wiki.txt", false);
 			for (Map.Entry<String, Integer> entry : words.entrySet()) {
 				fw.write("(" + entry.getKey() + "," + entry.getValue() + ")");
 				fw.write(System.lineSeparator());

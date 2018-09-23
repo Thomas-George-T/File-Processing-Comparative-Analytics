@@ -15,7 +15,7 @@ public class BigWordCount {
 	public static void main(String[] args) throws IOException {
 
 		// Create the FileInputStream and the scanner
-		FileInputStream fin = new FileInputStream("big.txt");
+		FileInputStream fin = new FileInputStream("Input-Files/big.txt");
 		Scanner sc = new Scanner(fin);
 
 		// Create the linkedHashMap
@@ -41,7 +41,7 @@ public class BigWordCount {
 
 		try {
 			// Write the file
-			FileWriter fw = new FileWriter("result/big.txt", false);
+			FileWriter fw = new FileWriter("Java-Word-Count-and-Analysis/WordCount_java/Result/big.txt", false);
 			for (Map.Entry<String, Integer> entry : words.entrySet()) {
 				fw.write("(" + entry.getKey() + "," + entry.getValue() + ")");
 				fw.write(System.lineSeparator());
