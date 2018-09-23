@@ -29,7 +29,7 @@ spark-shell -i "SparkWordCount.scala"
 	<img src="images/spark-jobs-chart.png" width=500>
 </p>
 
-The execution time for the spark jobs on Spark local mode are:
+The average execution times for the spark jobs on Spark local mode are:
 
 - apache-hadoop-wiki.txt: 1s
 - big.txt: 3s
