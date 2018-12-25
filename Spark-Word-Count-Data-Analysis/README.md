@@ -1,6 +1,12 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-# Description
+<p align="center">
+	<a href="#">
+		<img src="https://spark.apache.org/images/spark-logo-trademark.png" alt="Apache Spark Logo" height=100>
+	</a>
+</p>
+
+# Overview
 
 Data Analysis & comparisons of the execution time take to compute word counts for different input textFile sizes executed on Spark-Shell in Scala on the local cluster mode.
 
@@ -8,11 +14,6 @@ Data Analysis & comparisons of the execution time take to compute word counts fo
 
 - apache-hadoop-wiki.txt: 46.5 kB
 - big.txt: 6.5 MB 
-
-## File Sources
-
-- [apache-hadoop-wiki](https://en.wikipedia.org/wiki/Apache_Hadoop)
-- [big.txt](https://norvig.com/big.txt)
 
 ## Prerequisties
 
@@ -37,3 +38,8 @@ The average execution times for the spark jobs on Spark local mode are:
 
 - apache-hadoop-wiki.txt: 1s
 - big.txt: 3s
+
+## File Sources
+
+- [apache-hadoop-wiki](https://en.wikipedia.org/wiki/Apache_Hadoop)
+- [big.txt](https://norvig.com/big.txt)
