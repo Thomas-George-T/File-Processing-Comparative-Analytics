@@ -1,7 +1,11 @@
-# Description
-- Writing a Mapper and Reducer class in Java(MapReduce program) to find out the word count of a sample input text file from the terminal in Ubuntu
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-## Steps for running Map Reduce programs on Hadoop Ecosystem
+# Description
+
+- Data Analysis and comparison of time taken to execute a MapReduce program to compute the word counts of sample input text files of different sizes executed on hadoop.
+- Mapper and Reducer class are written in Java and run on the local cluster mode in hadoop.
+
+## Execution
 
 1. Start hdfs and yarn daemons
 
