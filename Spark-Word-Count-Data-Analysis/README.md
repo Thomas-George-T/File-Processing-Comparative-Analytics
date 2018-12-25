@@ -2,26 +2,30 @@
 
 # Description
 
-To find word counts and compare the execution times for different input textFile sizes executed on Spark-Shell using RDDs in Scala
+Data Analysis & comparisons of the execution time take to compute word counts for different input textFile sizes executed on Spark-Shell in Scala on the local cluster mode.
 
-## Run Command:
+## File Sizes
 
-In terminal execute
-
-```
-spark-shell -i "SparkWordCount.scala"
-```
+- apache-hadoop-wiki.txt: 46.5 kB
+- big.txt: 6.5 MB 
 
 ## File Sources
 
 - [apache-hadoop-wiki](https://en.wikipedia.org/wiki/Apache_Hadoop)
 - [big.txt](https://norvig.com/big.txt)
 
+## Prerequisties
 
-## File Sizes
+- Linux system
+- Spark set up in Local cluster mode
 
-- apache-hadoop-wiki.txt: 46.5 kB
-- big.txt: 6.5 MB 
+## Execution
+
+In terminal execute the following command:
+
+```
+spark-shell -i "SparkWordCount.scala"
+```
 
 ## Observations 
 <br>

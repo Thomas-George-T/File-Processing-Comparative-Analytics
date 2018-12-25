@@ -2,22 +2,21 @@
 
 # Description
 
-Program to find word counts and execution times for sample input text files written in core Java
-
-## Execution 
-
-Import the project into eclipse, compile and run
+Data Analysis & comparisons on execution times taken while computing word counts for sample input text files of different sizes written in core Java.
 
 ## File Sources
 
 - [apache-hadoop-wiki](https://en.wikipedia.org/wiki/Apache_Hadoop)
 - [big.txt](https://norvig.com/big.txt)
 
-
 ## File Sizes
 
 - apache-hadoop-wiki.txt: 46.5 kB
 - big.txt: 6.5 MB 
+
+## Execution 
+
+Import the project into eclipse, compile and run
 
 ## Observations 
 <br>
