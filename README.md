@@ -1,5 +1,11 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+<p align="center">
+    <a href="#">
+      <img src="https://cdn.svgporn.com/logos/hadoop.svg" alt="Apache Hadoop" height=100>
+    </a>
+</p>
+ 
 # Description
 
 - Data Analysis and comparison of time taken to execute a MapReduce program to compute the word counts of sample input text files of different sizes executed on hadoop.
@@ -9,13 +15,13 @@
 
 1. Start hdfs and yarn daemons
 
-  ```
-  start-hdfs.sh
-  start-yarn.sh
-     OR
-  deprecated code
-  start-all.sh
-  ```
+   ```
+   start-hdfs.sh
+   start-yarn.sh
+        OR
+   deprecated code
+   start-all.sh
+   ```
 
 2. Open a java project in Eclipse
 
@@ -63,3 +69,8 @@
    deprecated code:
    stop-all.sh
    ```
+
+### To do
+- [] Convert to Maven Project
+- [] Add the graphs for comparisons
+- [] Add the observations
