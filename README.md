@@ -71,6 +71,5 @@
    ```
 
 ### To do
-- [] Convert to Maven Project
-- [] Add the graphs for comparisons
-- [] Add the observations
+[ ] Add the graphs for comparisons
+[ ] Add the observations
