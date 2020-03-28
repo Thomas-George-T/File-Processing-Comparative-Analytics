@@ -6,13 +6,13 @@ Data Analysis & comparisons of the execution time taken for computing the word c
 
 ## Languages
 
-- [Java] (Java-Word-Count-Data-Analysis)
-- Scala
+- [Java](Java-Word-Count-Data-Analysis)
+- [Scala](Spark-Word-Count-Data-Analysis)
 
 ## Execution engines
 
-- Hadoop
-- Spark
+- [Hadoop](Hadoop-MapReduce-WordCount-Data-Analysis)
+- [Spark](Spark-Word-Count-Data-Analysis)
 
 ## File Sizes
 
