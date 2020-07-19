@@ -17,7 +17,7 @@ Computing for individual languages. Click the images to go to the respective dat
 		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/python.svg" alt="Python" Title="Python" width=210 hspace=10 />
 	</a>
 		<a href="Java-Word-Count-Data-Analysis">
-		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/java.svg" alt="Java" Title="Java" width=160 hspace=150 />
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/java.svg" alt="Java" Title="Java" width=160 hspace=50 />
 	</a>
 		<a href="Scala-Word-Count-Data-Analysis">
 		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/scala.svg" alt="Scala" Title="Scala" width=140/>
