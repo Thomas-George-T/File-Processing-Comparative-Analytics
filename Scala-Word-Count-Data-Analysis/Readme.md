@@ -1,15 +1,10 @@
-Add Badges here -- license and Language
-Add scala SVG from assets
-
 <p align="center">
 	<a href="#">
-		<img src="" />
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/scala.svg" width=100/>
 	</a>
 </p>
 
 # Scala Word Count Data Analysis
-
-## Overview
 
 We calculate the execution time taken by Scala to find the word counts of a small file (45.6 KB) and an extremely big file (6.5 MB) and compare our findings. To do this, we first read the respective files, calculate word counts and then write the results to the file. The execution time is calculated from the reading the file to when the results have been written.
 
@@ -37,7 +32,7 @@ We calculate the execution time taken by Scala to find the word counts of a smal
  
 <br>
 <p align="center">
-	<img src="scala-graph.png" link="#" title="Scala word count - Size vs Time chart" alt="Scala word count - Size vs Time chart">
+	<img src="scala-graph.png" title="Scala word count - Size vs Time chart" alt="Scala word count - Size vs Time chart">
 </p>
 
 The average execution times in Scala were found to be:
