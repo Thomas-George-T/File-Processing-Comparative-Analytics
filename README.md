@@ -10,32 +10,33 @@ The aim of this :green_book: project is to do data analysis :bar_chart: & compar
 
 ## Languages
 
-Computing for individual languages
+Computing for individual languages. Click the images to go to the respective data analysis sheet.
 
 <p align="left">
 	<a href="Python-Word-Count-Data-Analysis">
-		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/python.svg" alt="Python" Title="Python" width=150/>
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/python.svg" alt="Python" Title="Python" width=210 hspace=10 />
 	</a>
 		<a href="Java-Word-Count-Data-Analysis">
-		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/java.svg" alt="Java" Title="Java" width=150/>
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/java.svg" alt="Java" Title="Java" width=160 hspace=150 />
 	</a>
 		<a href="Scala-Word-Count-Data-Analysis">
-		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/scala.svg" alt="Scala" Title="Scala" width=150/>
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/scala.svg" alt="Scala" Title="Scala" width=140/>
 	</a>
 </p>
 
 
 ## Execution engines
 
-Computing for individual execution engines
+Computing for individual execution engines. Click the images to go to the respective data analysis sheet.
 
 <p align="left">
-	<a href="Spark-Word-Count-Data-Analysis">
-		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/apache_spark.svg" alt="Spark" Title="Spark" width=150/>
-	</a>
 	<a href="Hadoop-MapReduce-WordCount-Data-Analysis">
-		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/hadoop.svg" alt="Hadoop" Title="Hadoop" width=150/>
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/hadoop.svg" alt="Hadoop" Title="Hadoop" width=180 hspace=180/>
 	</a>
+	<a href="Spark-Word-Count-Data-Analysis">
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/apache_spark.svg" alt="Spark" Title="Spark" width=240 />
+	</a>
+	
 </p>
 
 
@@ -51,10 +52,12 @@ Computing for individual execution engines
 
 ## Findings
 
-<p align="left">
+<p align="center">
 	<a href="#">
 		<img src="assets/graphs/languages.png" alt="Languages findings" Title="Languages findings" />
 	</a>	
+	<br>
+	<br>
 	<a href="#">
 		<img src="assets/graphs/execution_engines.png" alt="Execution engines findings" Title="Execution engines findings" />
 	</a>	
@@ -62,7 +65,7 @@ Computing for individual execution engines
 
 ## Conclusions
 
-We have observed from the graphs that **Python** has the leat execution time for small and large files while **Scala** has the largest execution time.
+We have observed from the graphs that **Python** has the least execution time for small and large files while **Scala** has the largest execution time.
 
 We have observed that **Spark** has the least execution time while **Hadoop** has the highest execution time.
 
