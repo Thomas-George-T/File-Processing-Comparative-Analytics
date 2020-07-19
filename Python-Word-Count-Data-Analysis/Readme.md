@@ -2,7 +2,7 @@
 
 <p align="center">
 	<a href="#">
-		<img src="" width=100/>
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/python.svg" alt="Python" Title="Python" width=150/>
 	</a>
 </p>
 
@@ -50,8 +50,8 @@ To view the word count programs for
 ## Word Count Results
 
 To view the results of the word counts
-- [apache-hadoop-wiki](Word-count-apache-hadoop-wiki.txt)
-- [big](Word-count-big.txt)
+- [apache-hadoop-wiki](small-result-python.txt)
+- [big](big-result-python.txt)
 
 ## File Sources
 

@@ -2,7 +2,7 @@
 
 <p align="center">
 	<a href="#">
-		<img src="https://cdn.svgporn.com/logos/java.svg" alt="Java" title="Java" width=100>
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/java.svg" alt="Java" title="Java" width="150" />
 	</a>
 </p>
 

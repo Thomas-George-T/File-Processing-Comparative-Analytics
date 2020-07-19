@@ -12,6 +12,7 @@ The aim of this :green_book: project is to do data analysis :bar_chart: & compar
 
 - [Java](Java-Word-Count-Data-Analysis)
 - [Scala](Scala-Word-Count-Data-Analysis)
+- [Python](Python-Word-Count-Data-Analysis)
 
 ## Execution engines
 
