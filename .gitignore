@@ -29,3 +29,5 @@ bin
 *.classpath
 *.project
 *.settings
+
+_SUCCESS

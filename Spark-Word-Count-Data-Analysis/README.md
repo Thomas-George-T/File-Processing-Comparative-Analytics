@@ -1,24 +1,23 @@
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
 <p align="center">
 	<a href="#">
 		<img src="https://spark.apache.org/images/spark-logo-trademark.png" alt="Apache Spark Logo" height=100>
 	</a>
 </p>
 
-# Overview
+## Overview
 
-Data Analysis & comparisons of the execution time take to compute word counts for different input textFile sizes executed on Spark-Shell in Scala on the local cluster mode.
+Data Analysis & comparisons of the execution time take to compute word counts for different input textFile sizes executed on Spark-Shell in Scala in local cluster mode.
 
 ## File Sizes
 
 - apache-hadoop-wiki.txt: 46.5 kB
 - big.txt: 6.5 MB 
 
-## Prerequisties
+## Prerequisites
 
-- Linux system
-- Spark set up in Local cluster mode
+- Linux System
+- Hadoop 
+- Spark 2.0 set up in Local cluster mode
 
 ## Execution
 
@@ -36,8 +35,20 @@ spark-shell -i "SparkWordCount.scala"
 
 The average execution times for the spark jobs on Spark local mode are:
 
-- apache-hadoop-wiki.txt: 1s
-- big.txt: 3s
+- apache-hadoop-wiki.txt: 1 second
+- big.txt: 3 seconds
+
+## Source code
+
+To view the source code of the word counts of:
+- [apache-hadoop-wiki-small](/smallWordCount.scala)
+- [big](/bigWordCount.scala)
+
+## Word Count Results
+
+To view the results of the word counts
+- [apache-hadoop-wiki](/apache_wiki-result/part-00000.txt)
+- [big](/big-result/part-00000.txt)
 
 ## File Sources
 

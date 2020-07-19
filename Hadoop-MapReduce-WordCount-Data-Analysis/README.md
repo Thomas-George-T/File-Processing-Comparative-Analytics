@@ -1,15 +1,22 @@
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
 <p align="center">
     <a href="#">
       <img src="https://cdn.svgporn.com/logos/hadoop.svg" alt="Apache Hadoop" height=100>
     </a>
 </p>
  
-# Description
+## Description
 
-- Data Analysis and comparison of time taken to execute a MapReduce program to compute the word counts of sample input text files of different sizes executed on hadoop.
-- Mapper and Reducer class are written in Java and run on the local cluster mode in hadoop.
+Data Analysis and comparison of execution times of a MapReduce program to compute the word counts of sample input text files of different sizes executed on Hadoop. Mapper and Reducer class are written in Java and run on the local cluster mode in Hadoop.
+
+## Environment
+
+- Hadoop local mode
+- JDK 8
+
+## File Sizes
+
+- apache-hadoop-wiki.txt: 46.5 kB
+- big.txt: 6.5 MB 
 
 ## Execution
 
@@ -18,9 +25,6 @@
    ```
    start-hdfs.sh
    start-yarn.sh
-        OR
-   deprecated code
-   start-all.sh
    ```
 
 2. Open a java project in Eclipse
@@ -65,7 +69,26 @@
    ```
    stop-dfs.sh
    stop-yarn.sh
-       OR
-   deprecated code:
-   stop-all.sh
    ```
+   
+## Observations
+
+<br>
+<p align="center">
+	<img src="hadoop-graph.png" title="Hadoop - Size vs Time" alt="Hadoop - Size vs Time" />
+</p>
+
+The average execution times for the word count programs on hadoop are:
+
+- apache-hadoop-wiki.txt: 3 seconds
+- big.txt: 12 secs   
+   
+## Source Code
+- [WordCountDriver](/src/WordCountDriver.java)
+- [WordCountMapper](/src/WordCountMapper.java)
+- [WordCountReducer](/src/WordCountReducer.java)
+   
+## File Sources
+
+- [apache-hadoop-wiki](https://en.wikipedia.org/wiki/Apache_Hadoop)
+- [big](https://norvig.com/big.txt)
