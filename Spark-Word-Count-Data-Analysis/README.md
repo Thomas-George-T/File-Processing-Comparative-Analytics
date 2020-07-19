@@ -1,6 +1,9 @@
+# Spark Word Count Data Analysis
+
+
 <p align="center">
 	<a href="#">
-		<img src="https://spark.apache.org/images/spark-logo-trademark.png" alt="Apache Spark Logo" height=100>
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/apache_spark.svg" width=300 Title="Apache spark" alt="Apache Spark" />
 	</a>
 </p>
 
