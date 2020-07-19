@@ -16,15 +16,13 @@ Computing for individual languages
 	<a href="Python-Word-Count-Data-Analysis">
 		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/python.svg" alt="Python" Title="Python" width=150/>
 	</a>
+		<a href="Java-Word-Count-Data-Analysis">
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/java.svg" alt="Java" Title="Java" width=150/>
+	</a>
+		<a href="Scala-Word-Count-Data-Analysis">
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/scala.svg" alt="Scala" Title="Scala" width=150/>
+	</a>
 </p>
-
-
-- [Java](Java-Word-Count-Data-Analysis)
-- [Scala](Scala-Word-Count-Data-Analysis)
-
-<!--
-- [Python](Python-Word-Count-Data-Analysis)
--->
 
 
 ## Execution engines
@@ -35,12 +33,11 @@ Computing for individual execution engines
 	<a href="Spark-Word-Count-Data-Analysis">
 		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/apache_spark.svg" alt="Spark" Title="Spark" width=150/>
 	</a>
+	<a href="Hadoop-MapReduce-WordCount-Data-Analysis">
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/hadoop.svg" alt="Hadoop" Title="Hadoop" width=150/>
+	</a>
 </p>
 
-- [Hadoop](Hadoop-MapReduce-WordCount-Data-Analysis)
-<!--
-- [Spark](Spark-Word-Count-Data-Analysis)
--->
 
 ## File Sizes
 
@@ -55,17 +52,20 @@ Computing for individual execution engines
 ## Findings
 
 <p align="left">
-
 	<a href="#">
 		<img src="assets/graphs/languages.png" alt="Languages findings" Title="Languages findings" />
-	</a>
-	
+	</a>	
 	<a href="#">
 		<img src="assets/graphs/execution_engines.png" alt="Execution engines findings" Title="Execution engines findings" />
-	</a>
-	
+	</a>	
 </p>
+
+## Conclusions
+
+We have observed from the graphs that **Python** has the leat execution time for small and large files while **Scala** has the largest execution time.
+
+We have observed that **Spark** has the least execution time while **Hadoop** has the highest execution time.
 
 ## Notebook
 
-The Notebook with the complete Analysis with Graphs: [Notebook](Data-Analysis.ipynb)
+The Google Colab Notebook with the complete Analysis with Graphs: [Notebook](Data-Analysis.ipynb) 
