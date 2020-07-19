@@ -6,34 +6,34 @@
 
 ## Overview
 
-The aim of this :green_book: project is to do data analysis :bar_chart: & comparisons of the execution times :watch: taken for computing the word count of input text files varying from extremely small to extremely large sizes in various languages and execution engines. This project includes sample findings, observations, comparisons and sample word count programs. 
+The aim of this :green_book: project is to do data analysis :bar_chart: & comparisons of the execution times :watch: taken for computing the word count of input text files varying from extremely small to extremely large sizes in various languages and execution engines. This project includes sample findings, observations, comparisons and sample word count programs. All of the combined analysis was done in a google colab notebook and we have drawn conclusions from the same.
 
 ## Languages
 
-Computing for individual languages. Click the images to go to the respective data analysis sheet.
+Computing for individual languages. Click the images to go to the respective data analysis readme.
 
 <br>
 <p align="left">
 	<a href="Python-Word-Count-Data-Analysis">
-		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/python.svg" alt="Python" Title="Python" width=210 hspace=10 />
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/python.svg" alt="Python" Title="Python" width=150 hspace=10 />
 	</a>
 		<a href="Java-Word-Count-Data-Analysis">
-		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/java.svg" alt="Java" Title="Java" width=160 hspace=50 />
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/java.svg" alt="Java" Title="Java" width=120 hspace=80 />
 	</a>
 		<a href="Scala-Word-Count-Data-Analysis">
-		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/scala.svg" alt="Scala" Title="Scala" width=140/>
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/scala.svg" alt="Scala" Title="Scala" width=100/>
 	</a>
 </p>
 
 
 ## Execution engines
 
-Computing for individual execution engines. Click the images to go to the respective data analysis sheet.
+Computing for individual execution engines. Click the images to go to the respective data analysis readme.
 
 <br>
 <p align="left">
 	<a href="Hadoop-MapReduce-WordCount-Data-Analysis">
-		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/hadoop.svg" alt="Hadoop" Title="Hadoop" width=180 hspace=170/>
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/hadoop.svg" alt="Hadoop" Title="Hadoop" width=180 hspace=100/>
 	</a>
 	<a href="Spark-Word-Count-Data-Analysis">
 		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/apache_spark.svg" alt="Spark" Title="Spark" width=240 />
