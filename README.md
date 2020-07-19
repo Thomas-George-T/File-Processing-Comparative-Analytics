@@ -10,14 +10,37 @@ The aim of this :green_book: project is to do data analysis :bar_chart: & compar
 
 ## Languages
 
+Computing for individual languages
+
+<p align="left">
+	<a href="Python-Word-Count-Data-Analysis">
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/python.svg" alt="Python" Title="Python" width=150/>
+	</a>
+</p>
+
+
 - [Java](Java-Word-Count-Data-Analysis)
 - [Scala](Scala-Word-Count-Data-Analysis)
+
+<!--
 - [Python](Python-Word-Count-Data-Analysis)
+-->
+
 
 ## Execution engines
 
+Computing for individual execution engines
+
+<p align="left">
+	<a href="Spark-Word-Count-Data-Analysis">
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/apache_spark.svg" alt="Spark" Title="Spark" width=150/>
+	</a>
+</p>
+
 - [Hadoop](Hadoop-MapReduce-WordCount-Data-Analysis)
+<!--
 - [Spark](Spark-Word-Count-Data-Analysis)
+-->
 
 ## File Sizes
 
@@ -28,3 +51,21 @@ The aim of this :green_book: project is to do data analysis :bar_chart: & compar
 
 - [apache-hadoop-wiki](https://en.wikipedia.org/wiki/Apache_Hadoop)
 - [big.txt](https://norvig.com/big.txt)
+
+## Findings
+
+<p align="left">
+
+	<a href="#">
+		<img src="assets/graphs/languages.png" alt="Languages findings" Title="Languages findings" />
+	</a>
+	
+	<a href="#">
+		<img src="assets/graphs/execution_engines.png" alt="Execution engines findings" Title="Execution engines findings" />
+	</a>
+	
+</p>
+
+## Notebook
+
+The Notebook with the complete Analysis with Graphs: [Notebook](Data-Analysis.ipynb)
