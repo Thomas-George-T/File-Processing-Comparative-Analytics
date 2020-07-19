@@ -1,3 +1,5 @@
+# Java Word Count Data Analysis
+
 <p align="center">
 	<a href="#">
 		<img src="https://cdn.svgporn.com/logos/java.svg" alt="Java" title="Java" width=100>
@@ -39,14 +41,14 @@ The average execution times for the word count programs in Java are:
 
 ## Source Code
 To view the word count programs for 
-- [Apache-hadoop-wiki](/WordCount_java/src/ApacheWordCount.java)
-- [big](/WordCount_java/src/BigWordCount.java)
+- [Apache-hadoop-wiki](WordCount_java/src/ApacheWordCount.java)
+- [big](WordCount_java/src/BigWordCount.java)
 
 ## Word Count Results
 
 To view the results of the word counts
-- [apache-hadoop-wiki](/WordCount_java/Result/Word-count-apache-hadoop-wiki.txt)
-- [big](/WordCount_java/Result/big.txt)
+- [apache-hadoop-wiki](WordCount_java/Result/Word-count-apache-hadoop-wiki.txt)
+- [big](WordCount_java/Result/big.txt)
 
 ## File Sources
 

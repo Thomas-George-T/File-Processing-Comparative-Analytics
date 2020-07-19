@@ -41,14 +41,14 @@ The average execution times for the spark jobs on Spark local mode are:
 ## Source code
 
 To view the source code of the word counts of:
-- [apache-hadoop-wiki-small](/smallWordCount.scala)
-- [big](/bigWordCount.scala)
+- [apache-hadoop-wiki-small](smallWordCount.scala)
+- [big](bigWordCount.scala)
 
 ## Word Count Results
 
 To view the results of the word counts
-- [apache-hadoop-wiki](/apache_wiki-result/part-00000.txt)
-- [big](/big-result/part-00000.txt)
+- [apache-hadoop-wiki](apache_wiki-result/part-00000.txt)
+- [big](big-result/part-00000.txt)
 
 ## File Sources
 

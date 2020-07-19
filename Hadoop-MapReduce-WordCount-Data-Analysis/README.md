@@ -1,6 +1,8 @@
+# Hadoop MapReduce Word Count Data Analysis
+
 <p align="center">
     <a href="#">
-      <img src="https://cdn.svgporn.com/logos/hadoop.svg" alt="Apache Hadoop" height=100>
+      <img src="https://cdn.svgporn.com/logos/hadoop.svg" alt="Apache Hadoop" width="200" />
     </a>
 </p>
  
@@ -84,9 +86,9 @@ The average execution times for the word count programs on hadoop are:
 - big.txt: 12 secs   
    
 ## Source Code
-- [WordCountDriver](/src/WordCountDriver.java)
-- [WordCountMapper](/src/WordCountMapper.java)
-- [WordCountReducer](/src/WordCountReducer.java)
+- [WordCountDriver](src/WordCountDriver.java)
+- [WordCountMapper](src/WordCountMapper.java)
+- [WordCountReducer](src/WordCountReducer.java)
    
 ## File Sources
 

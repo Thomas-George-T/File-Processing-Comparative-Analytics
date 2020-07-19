@@ -44,14 +44,14 @@ The average execution times in Scala were found to be:
 
 ## Source Code
 To view the word count programs for 
-- [Apache-hadoop-wiki](/wordcounts/src/BigWordCount.scala)
-- [big](/wordcounts/src/SmallWordCount.scala)
+- [Apache-hadoop-wiki](wordcounts/src/BigWordCount.scala)
+- [big](wordcounts/src/SmallWordCount.scala)
 
 ## Word Count Results
 
 To view the results of the word counts
-- [apache-hadoop-wiki](/Word-count-apache-hadoop-wiki.txt)
-- [big](/Word-count-big.txt)
+- [apache-hadoop-wiki](Word-count-apache-hadoop-wiki.txt)
+- [big](Word-count-big.txt)
 
 ## File Sources
 
