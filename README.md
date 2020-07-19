@@ -12,6 +12,7 @@ The aim of this :green_book: project is to do data analysis :bar_chart: & compar
 
 Computing for individual languages. Click the images to go to the respective data analysis sheet.
 
+<br>
 <p align="left">
 	<a href="Python-Word-Count-Data-Analysis">
 		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/python.svg" alt="Python" Title="Python" width=210 hspace=10 />
@@ -29,9 +30,10 @@ Computing for individual languages. Click the images to go to the respective dat
 
 Computing for individual execution engines. Click the images to go to the respective data analysis sheet.
 
+<br>
 <p align="left">
 	<a href="Hadoop-MapReduce-WordCount-Data-Analysis">
-		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/hadoop.svg" alt="Hadoop" Title="Hadoop" width=180 hspace=180/>
+		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/hadoop.svg" alt="Hadoop" Title="Hadoop" width=180 hspace=170/>
 	</a>
 	<a href="Spark-Word-Count-Data-Analysis">
 		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/apache_spark.svg" alt="Spark" Title="Spark" width=240 />
