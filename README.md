@@ -4,13 +4,26 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/Thomas-George-T/Word-Count-Data-Analysis?style=flat)
 ![ViewCount](https://views.whatilearened.today/views/github/Thomas-George-T/Word-Count-Data-Analysis.svg?cache=remove)
 
-## Overview
+## Aim
+To find out which of the languages and execution engines take the maximum and the minimum amount of time to process files.
 
-The aim of this :green_book: project is to do data analysis :bar_chart: & comparisons of the execution times :watch: taken for computing the word count of input text files varying from extremely small to extremely large sizes in various languages and execution engines. This project includes sample findings, observations, comparisons and sample word count programs. All of the combined analysis was done in a google colab notebook and we have drawn conclusions from the same.
+## Methodology
+
+This :green_book: project conducts data analysis :bar_chart: & comparisons of the execution times :watch: taken for computing the word count of input text files varying from extremely small to extremely large sizes in various languages and execution engines. This project includes sample findings, observations, comparisons and sample word count programs. We then calculate the time taken to process the files indivually and gather the results. All of the combined analysis was done in a google colab notebook and we have drawn conclusions from the same.
+
+## File Sizes
+
+- apache-hadoop-wiki.txt: 46.5 kB
+- big.txt: 6.5 MB
+
+## File Sources
+
+- [apache-hadoop-wiki](https://en.wikipedia.org/wiki/Apache_Hadoop)
+- [big.txt](https://norvig.com/big.txt)
 
 ## Languages
 
-Computing for individual languages. Click the images to go to the respective data analysis readme.
+Computing for individual languages. Click the images to go to the respective data analysis results.
 
 <br>
 <p align="left">
@@ -28,7 +41,7 @@ Computing for individual languages. Click the images to go to the respective dat
 
 ## Execution engines
 
-Computing for individual execution engines. Click the images to go to the respective data analysis readme.
+Computing for individual execution engines. Click the images to go to the respective data analysis results.
 
 <br>
 <p align="left">
@@ -41,18 +54,9 @@ Computing for individual execution engines. Click the images to go to the respec
 	
 </p>
 
-
-## File Sizes
-
-- apache-hadoop-wiki.txt: 46.5 kB
-- big.txt: 6.5 MB
-
-## File Sources
-
-- [apache-hadoop-wiki](https://en.wikipedia.org/wiki/Apache_Hadoop)
-- [big.txt](https://norvig.com/big.txt)
-
 ## Findings
+
+A few data visualizations using matplotlib later:
 
 <p align="center">
 	<a href="#">
