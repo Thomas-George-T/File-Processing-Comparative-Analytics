@@ -9,7 +9,7 @@ To find out which of the languages and execution engines take the maximum and th
 
 ## Methodology
 
-This :green_book: project conducts data analysis :bar_chart: & comparisons of the execution times :watch: taken for computing the word count of input text files varying from extremely small to extremely large sizes in various languages and execution engines. This project includes sample findings, observations, comparisons and sample word count programs. We then calculate the time taken to process the files indivually and gather the results. All of the combined analysis was done in a google colab notebook and we have drawn conclusions from the same.
+This :green_book: project conducts data analysis :bar_chart: & comparisons of the execution times :watch: taken for computing the word count of input text files varying from extremely small to extremely large sizes in various languages and execution engines. This project includes sample findings, observations, comparisons and sample word count programs. We then calculate the time taken to process the files indivually and gather the results. All of the findings from individual analyses were collected and combined in a google colab notebook where we have plotted graphs using matplotlib and drawn conclusions based on our findings.
 
 ## File Sizes
 
