@@ -5,23 +5,26 @@
 ![ViewCount](https://views.whatilearened.today/views/github/Thomas-George-T/Word-Count-Data-Analysis.svg?cache=remove)
 
 ## Aim
-To find out which of the languages and execution engines take the maximum and the minimum amount of time to process files.
+To find out which of the programming languages and execution engines take the maximum and the minimum amount of time to process files.
 
 ## Methodology
 
-This :green_book: project conducts data analysis :bar_chart: & comparisons of the execution times :watch: taken for computing the word count of input text files varying from extremely small to extremely large sizes in various languages and execution engines. This project includes sample findings, observations, comparisons and sample word count programs. We then calculate the time taken to process the files indivually and gather the results. All of the findings from individual analyses were collected and combined in a google colab notebook where we have plotted graphs using matplotlib and drawn conclusions based on our findings.
+This :green_book: project conducts data analysis :bar_chart: & comparisons of the execution times :watch: taken for computing the word count of input text files varying from extremely small to extremely large sizes in various programming languages and execution engines. This project includes sample findings, observations, comparisons and sample word count programs. We then calculate the time taken to process the files individually and gather the results. All of the findings from individual analyses were collected and combined in a google colab notebook where we have plotted graphs using matplotlib and drawn conclusions based on our findings.
 
 ## File Sizes
 
-- apache-hadoop-wiki.txt: 46.5 kB
-- big.txt: 6.5 MB
+| File Name              | Size    |
+|------------------------|---------|
+| apache-hadoop-wiki.txt | 46.5 kB |
+| big.txt                | 6.5 MB  |
+
 
 ## File Sources
 
 - [apache-hadoop-wiki](https://en.wikipedia.org/wiki/Apache_Hadoop)
 - [big.txt](https://norvig.com/big.txt)
 
-## Languages
+## Programming Languages
 
 Computing for individual languages. Click the images to go to the respective data analysis results.
 
@@ -54,16 +57,19 @@ Computing for individual execution engines. Click the images to go to the respec
 	
 </p>
 
-## Findings
+## Visualizing Results
 
-A few data visualizations using matplotlib later:
+### Comparing Programming Languages
 
 <p align="center">
 	<a href="#">
 		<img src="assets/graphs/languages.png" alt="Languages findings" Title="Languages findings" />
-	</a>	
-	<br>
-	<br>
+	</a>
+</p>	
+
+### Comparing Execution Engines	
+	
+<p align="center">
 	<a href="#">
 		<img src="assets/graphs/execution_engines.png" alt="Execution engines findings" Title="Execution engines findings" />
 	</a>	
