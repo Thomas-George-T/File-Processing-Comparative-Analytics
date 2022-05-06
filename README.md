@@ -29,7 +29,7 @@ This :green_book: project conducts data analysis :bar_chart: & comparisons of th
 Computing for individual languages. Click the images to go to the respective data analysis results.
 
 <br>
-<p align="left">
+<p align="center">
 	<a href="Python-Word-Count-Data-Analysis">
 		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/python.svg" alt="Python" Title="Python" width=150 hspace=10 />
 	</a>
@@ -47,7 +47,7 @@ Computing for individual languages. Click the images to go to the respective dat
 Computing for individual execution engines. Click the images to go to the respective data analysis results.
 
 <br>
-<p align="left">
+<p align="center">
 	<a href="Hadoop-MapReduce-WordCount-Data-Analysis">
 		<img src="https://raw.githubusercontent.com/Thomas-George-T/Word-Count-Data-Analysis/master/assets/svg/hadoop.svg" alt="Hadoop" Title="Hadoop" width=180 hspace=100/>
 	</a>
